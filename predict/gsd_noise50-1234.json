@@ -1,0 +1,19 @@
+{
+    "gsd_noise50-1234": {
+        "train_data_path": "../UD_German-GSD/de_gsd-ud-train_noise50-1234.conllu",
+        "dev_data_path": "../UD_German-GSD/de_gsd-ud-dev_noise50-1234.conllu",
+        "word_idx": 1,
+        "tasks": {
+            "upos": {
+                "task_type": "seq",
+                "column_idx": 3,
+                "additional_metrics": ["f1_macro"]
+            },
+            "dependency": {
+                "task_type": "dependency",
+                "column_idx": 6,
+                "additional_metrics": ["uas"]
+            }
+        }
+    }
+}

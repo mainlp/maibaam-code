@@ -1,0 +1,12 @@
+[submodule "tools"]
+	path = tools
+	url = git@github.com:UniversalDependencies/tools.git
+[submodule "conllueditor"]
+	path = conllueditor
+	url = git@github.com:mainlp/conllueditor.git
+[submodule "predict/machamp"]
+	path = predict/machamp
+	url = git@github.com:machamp-nlp/machamp.git
+[submodule "predict/UD_German-GSD"]
+	path = predict/UD_German-GSD
+	url = git@github.com:UniversalDependencies/UD_German-GSD.git

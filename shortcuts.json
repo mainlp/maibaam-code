@@ -1,0 +1,26 @@
+{
+    "comment": "this files defines shortcuts to fast edit upos, xpos, feats and deprel of the active word. For xpos two values can to be given in a list: XPOS and UPOS). +, -, ? and = have hardwired meanings and cannot be used in shortcuts",
+    "upos": {
+        "j": "ADJ",
+        "p": "ADP",
+        "a": "ADV",
+        "u": "AUX",
+        "c": "CCONJ",
+        "d": "DET",
+        "i": "INTJ",
+        "n": "NOUN",
+        "m": "NUM",
+        "r": "PART",
+        "o": "PRON",
+        "e": "PROPN",
+        "t": "PUNCT",
+        "s": "SCONJ",
+        "y": "SYM",
+        "v": "VERB",
+        "x": "X"
+    },
+    "misc": {
+       "san": "SpaceAfter=No"
+    }
+}
+
