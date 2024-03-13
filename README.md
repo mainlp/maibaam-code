@@ -183,3 +183,11 @@ General eval (UAS, LAS, tag F1, tag accuracy) and eval per genre and dialect gro
 ```
 python3 tokenwise_eval.py PRED_FILE
 ```
+
+## Surface tokenization
+
+To convert the treebank to a surface-based tokenization scheme as currently used by the [Swiss German treebank](https://universaldependencies.org/gsw/) (rather than the classic UD tokenization), use the following command:
+```
+python3 gsw_style_tokenization.py data/bar_maibaam-ud-test.conllu data/bar_maibaam-ud-testgsw-style.conllu
+```
+This reverts the token splits, assigns tags to the unsplit tokens (e.g., DET+NOUN becomes NOUN and VERB+PRON becomes VERB) and adjusts the dependencies accordingly.
