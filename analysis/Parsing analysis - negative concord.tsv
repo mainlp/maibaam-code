@@ -1,0 +1,20 @@
+# Negative concord														
+# pattern { X[GermanLemma="nicht"|"nie"]; Y[GermanLemma="kein"|"keine"|"keiner"]; Z[]; Z-[det]->Y }														
+	W (head of X)	X	Y	Z	POS of X	POS of Y	POS of Z	head of X	rel of X	head of Y	rel of Y	head of Z (if not Z=W)	rel of Z (if not W=Z)	
+expected					PART	DET	NOUN	W	advmod	Z	det	W	(depends)	
+wikisample_Boarische-Grammatik-Präpositiona_61	trink	niat	koa	Bejer	ADJ	ADJ	NOUN	W	xcomp	Z	amod	W	nsubj (should be obj)	
+wiki_Schneckn_52	hod	net	ka	Grubbm	PART	ADV	NOUN	W	advmod	Z	amod	W	obj (correct)	
+tatoeba_5168892	mocha	net	koane	Beistrich	PART	ADJ	NOUN	W	advmod	Z	amod	W	obj (correct)	
+wiki_Fiisch_3	hom	ned	koane	Haxn	ADV	ADJ	NOUN	W	advmod	Z	amod	W	obj (correct)	
+wikitalk_Dischkrian:Bairische-Buechspraach_3	Mittlhaochdeitsch	neda	koa	Mittlhaochdeitsch	ADV	ADJ	NOUN	oth	root	Z	amod			W=Z (copula construction)
+wikitalk_Dischkrian:Bsundaheitn-im-boarischn-Vokabular_13	redn	net	koa	Boarisch	ADJ	ADV	NOUN	W	advmod	Z	advmod	W	obj (correct)	
+														
+Correct					2	0	6	5	4	6	0	5	4	
+Total					6	6	6	6	6	6	6	5	5	
+														
+# False positives														
+wiki_Schneckn_11														
+wikitalk_Dischkrian:Bairische-Buechspraach_8 [2/2]														
+wikitalk_Dischkrian:Bairische-Buechspraach_8 [1/2]														
+wikitalk_Dischkrian:Bsundaheitn-im-boarischn-Vokabular_6														
+wikitalk_Dischkrian:Bsundaheitn-im-boarischn-Vokabular_7														

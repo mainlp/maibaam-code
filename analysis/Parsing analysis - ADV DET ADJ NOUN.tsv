@@ -1,0 +1,13 @@
+# (DET) ADV DET ADJ NOUN																			
+# pattern { W[upos="ADV"]; X[upos="DET"]; Y[upos="ADJ"]; Z[upos="NOUN"]; V[]; V<W; W<X; X<Y; Y<Z; Y-[advmod]->W; Z-[amod]->Y; Z-[det]->X; } 																			
+	V (if relevant)	W	X	Y	Z	POS of V (if relevant)	POS of W	POS of X	POS of Y	POS of Z	head of V (if relevant)	rel of V (if relevant)	head of W	rel of W	head of X	rel of X	head of Y	rel of Y	Note
+expected						(DET)	ADV	DET	ADJ	NOUN	Z	det	Y	advmod	Z	det	Z	amod	
+wiki_Lamma_6	a	rechd	a	sauwas	Wossa	DET	ADV	NOUN	ADJ	NOUN	Z	det	oth	advmod	Z	compound	Z	amod	
+wikitalk_Dischkrian:Ottoman_8	a	ganz	a	bläds	Buidl	PRON	ADV	DET	ADJ	NOUN	Z	nsubj	X	advmod	Z	det	Z	amod	
+wikisample_Boarische-Grammatik-Verbn_15		so	om 	scheena	Dog		ADV	ADP	ADJ	NOUN			oth	advmod	Z	case	Z	amod	Valid/expected in German
+wiki_Walsch_4		gonz	a	normales	Wort		ADJ	NOUN	ADJ	NOUN			Z	nsubj	Z	nsubj	Z	amod	
+tatoeba_5167015		so	a	schena	Füm		ADV	DET	ADJ	NOUN			Z	advmod	Z	det	Z	amod	Valid/expected in German
+wikitalk_Dischkrian:Bairische-Buechspraach_1	a	ganz	a	wichtinge	Sach	ADV	ADV	ADV	ADJ	NOUN	Y	advmod	X	advmod	Y	advmod	Z	amod	
+																			
+						1	5	2	6	6	2	1	0	5	5	2	6	6	
+						3	6	6	6	6	3	3	6	6	6	6	6	6	

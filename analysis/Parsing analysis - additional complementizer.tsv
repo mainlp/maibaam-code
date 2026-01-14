@@ -1,0 +1,21 @@
+# additional complementizer									
+# pattern { X[upos<>"PUNCT"]; Y[upos="SCONJ", GermanLemma="dass"]; X<Y; Z[]; Z->X; Z-[mark]->Y; }									
+	X	Y	Z	POS of X	POS of Y	head of X	rel of X	head of Y	rel of Y
+expected				(depends)	SCONJ	Z	(depends)	Z	mark
+wikisample_Boarische-Grammatik-Pronomen_35	warum	das	higehst	ADV (correct)	PRON	Z	advmod (correct)	Z	mark
+wikisample_Boarische-Grammatik-Pronomen_36	[wega] wos	das	woant	PRON (correct)	PRON	Z	obj (should be obl)	Z	mark
+wikisample_Boarische-Grammatik-Pronomen_37	[wia] lang	das	dauat	ADV (should be ADJ)	SCONJ	oth	ccomp	Z	mark
+wikisample_Boarische-Grammatik-Konjunktiona_62	[wej] lång	das'sd	brauchst	ADV (should be ADJ)	ADV	Z	advmod (correct)	Z	nsubj
+wikisample_Boarische-Grammatik-Konjunktiona_63	Trotzdean	das	moch	VERB (should be ADV)	SCONJ	oth	advmod (correct)	Z	mark
+wikisample_Boarische-Grammatik-Konjunktiona_73	[vo] wos	das'sd	redst	PRON (correct)	PRON	Z	obl (correct)	Z	nsubj
+wikisample_Boarische-Grammatik-Konjunktiona_75	[zo] wos	das'sd	brauchst	ADV (should be PRON)	PRON	Z	advmod (should be obl)	Z	nsubj
+wiki_Schneckn_42	bis	das	auschlupfm	SCONJ (correct)	SCONJ	Z	mark (correct)	Z	mark
+wiki_Schneckn_46	indem	das	stechn	SCONJ (correct)	PRON	Z	mark (correct)	Z	nsubj
+									
+Correct				5	3	7	6	9	5
+Total				9	9	9	9	9	9
+									
+# False positives									
+wiki_J-Pop_9									
+wiki_Sauschädelstöhln_3									
+wiki_Studentnfuada_8									
