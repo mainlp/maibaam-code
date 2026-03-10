@@ -1,0 +1,26 @@
+# auxiliary tua						
+# pattern { X [GermanLemma="tun", upos="AUX"]; Y-[aux]->X }						
+	X	Y	POS of X	POS of Y	head of X	rel of X
+expected			AUX	VERB	Y	aux
+wikitalk_Dischkrian:Ödenburg_8	dätn	vadodln	AUX	VERB	Y	aux
+wikisample_Boarische-Grammatik-Verbn_12	dad	essn	ADV	ADV	oth	advmod
+wikisample_Boarische-Grammatik-Verbn_13	Dan	zammrucka	ADV	VERB	Y	advmod
+wikisample_Boarische-Grammatik-Verbn_15	dad	geh	NOUN	ADV	oth	cc
+wikisample_Boarische-Grammatik-Konjunktiona_63	tou	hairon	ADV	VERB	Y	advmod
+wiki_Schneckn_36	duat	otman	VERB	ADV	0	root
+tatoeba_5166978	tarat	frogn	VERB	VERB	oth	conj
+tatoeba_5225706	taratst	tuan	VERB	VERB	oth	root
+wiki_Sauschädelstöhln_3	dad	merken	AUX	VERB	Y	aux
+xsid_de-st_valid_151	tat	gebn	VERB	VERB	oth	root
+sid_de-ba_natural_12	Dads	einedoa	SCONJ	ADV	oth	mark
+sid_de-ba_natural_15	dad	reservieren	AUX	VERB	Y	aux
+sid_de-ba_natural_18	dad	reservieren	AUX	VERB	Y	aux
+sid_de-ba_natural_21	darat	resavieren	NOUN	VERB	Y	obl
+sid_de-ba_natural_50	dua	bewerten	ADP	VERB	Y	xcomp
+sid_de-ba_natural_291	Dua	löschn	ADP	VERB	Y	dep
+wikitalk_Dischkrian:Boarische-Umschrift_9	dàd	schreim	AUX	VERB	Y	aux
+wikitalk_Dischkrian:Boarische-Umschrift_17	dààd	intressiern	ADV	VERB	Y	advmod
+wikisource_Hansl-und-Gretl_5	dadn	dareißn	VERB	VERB	oth	acl
+						
+Correct			5	15	11	5
+Total			19	19	19	19

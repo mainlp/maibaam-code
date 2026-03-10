@@ -1,0 +1,27 @@
+# zum Infinitives										
+# pattern { X [upos="PART", GermanLemma="zu"]; Y[upos="DET"]; Z[upos="NOUN"]; X<Y; Y<Z }										
+	X	Y	Z	POS of X	POS of Y	POS of Z	head of X	rel of X	head of Y	rel of Y
+expected				PART	DET	NOUN	Z	mark	Z	det
+wikisource_Hansl-und-Gretl_1	zu	m	beißn	ADP	NOUN	VERB	Y	case	Z	nmod
+wiki_Toppmkorsee_11	za	n	bewirschtn	ADP	PRON	VERB	Y	case	Z	obl
+tatoeba_6484258	zu	m	Tuan	ADP	DET	NOUN	Z	case	Z	nmod
+wikisample_Boarische-Grammatik-Konjunktiona_82	za	n	renga	ADP	X	NOUN	Z	case	Z	nmod
+wiki_Dazzlwuam_6	zu	m	seng	ADP	NOUN	ADJ	Y	case	Z	nmod
+wiki_Dazzlwuam_22	zu	m	rian	ADP	NOUN	NOUN	Z	case	Z	nmod
+wiki_Schneckn_29	za	n	Greun	ADP	DET	NOUN	Z	case	Z	det
+cairo_6	zu	m	waschn	ADP	NOUN	VERB	Y	case	Z	obl
+tatoeba_7276682	zu	m	Glaubm	ADP	NOUN	NOUN	Z	case	Z	nmod
+tatoeba_7412817	zu	m	Tagln	ADP	NOUN	NOUN	Z	case	Z	compound
+tatoeba_8932303-2	zu	m	Denkn	ADP	DET	NOUN	Z	case	Z	nmod
+wiki_Kafää_32	zu	m	oozöön	ADP	NOUN	VERB	Y	case	Z	obl
+wiki_Sauschädelstöhln_3	zu	m	fladern	ADP	NOUN	VERB	Y	case	Z	obl
+sid_de-ba_natural_293	zu	m	Eikaufa	ADP	PROPN	PROPN	Z	case	oth	nmod
+xsid_de-ba_test_39	zu	m	macha	ADP	NOUN	VERB	Y	case	Z	obl
+xsid_de-ba_test_57	zu	m	geh	ADP	NOUN	PROPN	Y	case	Z	compound
+xsid_de-ba_test_58	zu	m	nehma	ADP	NOUN	ADV	Z	case	Z	compound
+xsid_de-ba_test_64	zu	m	geh	ADP	NOUN	NOUN	Y	case	Z	compound
+xsid_de-ba_test_72	zu	m	zoin	ADP	NOUN	ADV	Y	case	oth	nmod
+xsid_de-ba_test_85	zu	m	hoin	ADP	NOUN	ADV	Z	case	Z	compound
+										
+Correct				0	3	8	10	0	18	1
+Total				20	20	20	20	20	20	20
