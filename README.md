@@ -191,3 +191,7 @@ To convert the treebank to a surface-based tokenization scheme as currently used
 python3 gsw_style_tokenization.py data/bar_maibaam-ud-test.conllu data/bar_maibaam-ud-testgsw-style.conllu
 ```
 This reverts the token splits, assigns tags to the unsplit tokens (e.g., DET+NOUN becomes NOUN and VERB+PRON becomes VERB) and adjusts the dependencies accordingly.
+
+## Parser analysis
+
+The `analysis` folder contains the data used for analyzing the predictions of UDPipe GSD 2.12 for Bavarian constructions. For more details, see Verena Blaschke's PhD dissertation.
